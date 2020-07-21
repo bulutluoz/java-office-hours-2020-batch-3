@@ -18,6 +18,7 @@ public class CovertStringToCharArray {
 		String input="John";
 		charArray(input);
 		
+		
 	}
 	public static void charArray(String input) {
 		
