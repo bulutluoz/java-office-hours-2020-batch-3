@@ -16,10 +16,8 @@ public class SortArrayWithoutSortMethod {
 		
 		int input[]= {6,2,4,3,1,5} ;
 		sortWithoutSortMethod(input );
-
 	}
 	
-
 	public static void sortWithoutSortMethod(int input[] ) {
 		
 		List<Integer> inputList = new ArrayList<>();
@@ -30,8 +28,6 @@ public class SortArrayWithoutSortMethod {
 		
 		List<Integer> outputList = new ArrayList<>();
 
-
-		
 		while(inputList.size()>0) {
 			
 			int min=Integer.MAX_VALUE;
@@ -45,11 +41,8 @@ public class SortArrayWithoutSortMethod {
 			
 			outputList.add(min);
 			inputList.remove(inputList.indexOf(min));
-
 		}
-		
-			
-		
+
 		System.out.println("output " + outputList);
 		 
 	}
