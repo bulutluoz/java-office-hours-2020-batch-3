@@ -1,4 +1,4 @@
-package day03;
+package day08;
 
 public class MultiplicationTable {
 	
