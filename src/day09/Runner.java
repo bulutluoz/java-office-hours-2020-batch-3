@@ -12,12 +12,12 @@ public class Runner {
 		CarSeller car5 = new CarSeller("Honda", "Accord",2020,20000,"white",15000);
 		CarSeller car6 = new CarSeller("Honda", "City",2010,120000,"white",5000);
 
-		car1.carPrinter(car1);
-		car2.carPrinter(car2);
-		car3.carPrinter(car3);
-		car4.carPrinter(car4);
-		car5.carPrinter(car5);
-		car5.carPrinter(car6);
+		CarSeller.carPrinter(car1);
+		CarSeller.carPrinter(car2);
+		CarSeller.carPrinter(car3);
+		CarSeller.carPrinter(car4);
+		CarSeller.carPrinter(car5);
+		CarSeller.carPrinter(car6);
 		
 		
 		
