@@ -4,31 +4,33 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CoursesClass {
-	 /*  5) Courses class
-	 *     * there should be a list to store all courses
-	 *     * there should be a method to add courses to courses list
-	 *     * there should be a method to print all courses
+	/*
+	 * 5) Courses class 
+	 *     * there should be a list to store all courses 
+	 *     * there should be a method to add courses to courses list 
+	 *     * there should be a method to print all courses 
 	 *     * there should be a method to print numbers of courses
-	 *     */
+	 * 
+	 */
+
+	List<CourseClass> courseList = new ArrayList<>();
 	
-	List<CourseClass > coursesList= new ArrayList<CourseClass>();
-	
-	public void addCourseToList(CourseClass course) {
-		coursesList.add(course);
+	public void addCourse(CourseClass course) {
+		courseList.add(course);
 	}
 	
+	
 	public void printCourses() {
-		
-		System.out.println("====courses list from courses class====");
-		for(CourseClass w : coursesList) {
-			System.out.println(w.toString(w));
+		System.out.println("=====Courses List From CoursesClass====");
+		for(CourseClass each:courseList) {
+			System.out.println(each.toString(each));
 		}
 		
 	}
 	
-	public int numbersOfCourses() {
+	public int numberOfCourse() {
 		
-		return coursesList.size();
+		return courseList.size();
 	}
 
 }

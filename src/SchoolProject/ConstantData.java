@@ -8,9 +8,7 @@ public class ConstantData {
 	 *  
 	 *  Singleton class : In object-oriented programming, a singleton class is a class
 	 * that can have only one object (an instance of the class) at a time.
-	 *  No one reach that class by creating object
-	 *  
-	 *  
+	 *  No one reach that class by creating object 
 	 */
 	
 	static final String NAME="Techproed";
@@ -19,10 +17,8 @@ public class ConstantData {
 	static final String ADDRESS = "571 New York Ave, Lyndhurst, NJ 07071 USA";
 	
 	
-	private ConstantData (){
+	private ConstantData() {
 		
 	}
 	
-
-
 }
