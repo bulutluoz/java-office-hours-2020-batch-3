@@ -12,7 +12,7 @@ public class CamelCase {
 		 * 
 		 */
 		
-		String input="I am writing cOde Easily, it is great!";
+		String input="I am writing code Easily, it is great!";
 		camelCase(input);
 		camelCase1(input);
 
@@ -20,6 +20,7 @@ public class CamelCase {
 
 	public static void camelCase1(String input) {
 		
+
 		String words[]=input.split(" ");
 		String output="";
 		for (int i = 0; i < words.length; i++) {
@@ -35,11 +36,10 @@ public class CamelCase {
 	}
 
 	public static void camelCase(String input) {
-		
+
 		String camelCase="";
 		String words[]=input.split(" ");
 		for (int i = 0; i < words.length; i++) {
-			
 			camelCase+= words[i].substring(0, 1).toUpperCase()+words[i].substring(1, words[i].length()).toLowerCase();
 		}
 		System.out.println(camelCase);
